@@ -18,7 +18,8 @@ attr_accessor :title, :author
   
   def author_name
     if name?
-      self.author.name
+     # self.author.name
+     name = nil
     else
       name = nil
     end 
