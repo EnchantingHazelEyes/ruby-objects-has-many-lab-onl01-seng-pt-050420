@@ -1,7 +1,7 @@
 class Song
 
 attr_accessor :title, :artist
-@@all 
+@@all = []
 
   def initialize(title)
     @title = title
