@@ -19,5 +19,8 @@ attr_accessor :name
     add_song(song)
   end
 
+ def song_count
+    self.all.count
+  end 
 
 end 
