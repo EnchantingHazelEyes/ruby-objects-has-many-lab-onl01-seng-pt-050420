@@ -23,5 +23,4 @@ attr_accessor :artist, :name
       nil 
     end 
   end
-
 end 
