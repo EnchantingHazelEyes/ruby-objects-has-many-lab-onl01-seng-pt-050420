@@ -17,7 +17,7 @@ attr_accessor :title, :author
   end
   
   def author_name
-    if author.name.include?(author)
+    if author.name.include?(author.name)
       self.author.name
     else 
       author.name = nil
