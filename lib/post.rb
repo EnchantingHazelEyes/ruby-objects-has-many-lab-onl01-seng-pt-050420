@@ -23,7 +23,4 @@ attr_accessor :title, :author
       nil
     end
   end
-
-
-
 end 
